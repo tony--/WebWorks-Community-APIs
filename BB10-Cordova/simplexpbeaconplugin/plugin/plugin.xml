@@ -46,6 +46,9 @@
 
         <header-file src="src/ios/SimpleXpBeaconPlugin.h" target-dir="SimpleXpBeaconPlugin"/>
         <source-file src="src/ios/SimpleXpBeaconPlugin.m" target-dir="SimpleXpBeaconPlugin"/>
+    	
+    	<framework src="CoreBluetooth.framework" />
+    	<framework src="CoreLocation.framework" />        
     </platform>
 
 </plugin>
